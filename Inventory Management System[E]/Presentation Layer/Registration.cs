@@ -40,41 +40,41 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
 
             if (nameTextBox.Text == "")
             {
-                DialogResult result = MessageBox.Show("Name box can not be empty. To continue, Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("Name box can not be empty.", "Confirmation",  MessageBoxButtons.OK);
             }
             else if (userNameTextBox.Text == "")
             {
-                DialogResult result = MessageBox.Show("User Name sectiom can not be empty. To continue,Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("User Name sectiom can not be empty.", "Confirmation", MessageBoxButtons.OK);
             }
             else if (passwordTextBox.Text == "")
             {
-                DialogResult result = MessageBox.Show("Password field can not be empty. To continue,Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("Password field can not be empty.", "Confirmation", MessageBoxButtons.OK);
             }
             else if (confirmPasswordTextBox.Text != passwordTextBox.Text)
             {
-                DialogResult result = MessageBox.Show("Given password not matched. To continue,Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("Given password not matched.", "Confirmation", MessageBoxButtons.OK);
             }
             else if (emailTextBox.Text == "")
             {
-                DialogResult result = MessageBox.Show("Email field can not be empty. To continue,Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("Email field can not be empty.", "Confirmation", MessageBoxButtons.OK);
             }
             else if (BirthOfDate >= today)
             {
-                MessageBox.Show("Date of Birth Can't be Today's Date or greater than Today's Date", "Selected Date Error");
+                MessageBox.Show("Date of Birth Can't be Today's Date or greater than Today's Date");
                 dateOfBirthDateTimePicker.Text = Convert.ToString(today);
             }
             
             else if (radioButton1.Checked == false && radioButton2.Checked == false)
             {
-                DialogResult result = MessageBox.Show("Select Gender. To continue,Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("Select Gender.", "Confirmation", MessageBoxButtons.OK);
             }
             else if (comboBox1.Text == "")
             {
-                DialogResult result = MessageBox.Show("Select your blood group. To continue,Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("Select your blood group. ", "Confirmation" , MessageBoxButtons.OK);
             }
             else if (checkBox1.Checked == false)
             {
-                DialogResult result = MessageBox.Show("You have to agree with all the term and condition. To continue,Press 'OK'", "Confirmation", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("You have to agree with all the term and condition.", "Confirmation", MessageBoxButtons.OK);
             }
             else
             {

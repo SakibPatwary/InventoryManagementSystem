@@ -48,7 +48,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(200, 129);
+            this.groupBox1.Location = new System.Drawing.Point(49, 71);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(635, 301);
             this.groupBox1.TabIndex = 0;
@@ -57,13 +57,14 @@
             // 
             // loginButton
             // 
+            this.loginButton.BackColor = System.Drawing.Color.DarkGray;
             this.loginButton.Font = new System.Drawing.Font("Sylfaen", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginButton.Location = new System.Drawing.Point(263, 202);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(178, 40);
             this.loginButton.TabIndex = 4;
             this.loginButton.Text = "Login";
-            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.UseVisualStyleBackColor = false;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // passwordTextBox
@@ -107,7 +108,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(294, 450);
+            this.label3.Location = new System.Drawing.Point(275, 401);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(164, 18);
             this.label3.TabIndex = 2;
@@ -117,7 +118,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(538, 450);
+            this.label5.Location = new System.Drawing.Point(534, 401);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(150, 18);
             this.label5.TabIndex = 4;
@@ -126,21 +127,23 @@
             // RestrationLinkLabel
             // 
             this.RestrationLinkLabel.AutoSize = true;
+            this.RestrationLinkLabel.BackColor = System.Drawing.Color.SlateBlue;
             this.RestrationLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RestrationLinkLabel.Location = new System.Drawing.Point(451, 450);
+            this.RestrationLinkLabel.LinkColor = System.Drawing.Color.Transparent;
+            this.RestrationLinkLabel.Location = new System.Drawing.Point(429, 401);
             this.RestrationLinkLabel.Name = "RestrationLinkLabel";
-            this.RestrationLinkLabel.Size = new System.Drawing.Size(90, 18);
+            this.RestrationLinkLabel.Size = new System.Drawing.Size(99, 18);
             this.RestrationLinkLabel.TabIndex = 5;
             this.RestrationLinkLabel.TabStop = true;
-            this.RestrationLinkLabel.Text = "Reistration";
+            this.RestrationLinkLabel.Text = "Registration";
             this.RestrationLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.RestrationLinkLabel_LinkClicked);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(1028, 609);
+            this.BackColor = System.Drawing.Color.SlateBlue;
+            this.ClientSize = new System.Drawing.Size(745, 456);
             this.Controls.Add(this.RestrationLinkLabel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
