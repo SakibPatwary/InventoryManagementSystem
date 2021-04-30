@@ -45,7 +45,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
 
         void ClearFields(object sender, EventArgs e)
         {
-            nameTextBox.Text = userNameTextBox.Text = passwordTextBox.Text=emailTextBox.Text=GenderComboBox.Text =userTypeComboBox.Text = string.Empty;
+            nameTextBox.Text = userNameTextBox.Text = passwordTextBox.Text=emailTextBox.Text=GenderComboBox.Text = userTypeComboBox.Text = string.Empty;
 
         }
 
@@ -57,45 +57,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             {
                 MessageBox.Show("Date of Birth Can't be Today's Date or greater than Today's Date", "Selected Date Error");
                 dateOfBirthDateTimePicker.Text = Convert.ToString(today);
-            }
-        }
-
-        private void addUserButton_Click(object sender, EventArgs e)
-        {
-            DateTime BirthOfDate = Convert.ToDateTime(dateOfBirthDateTimePicker.Text);
-            DateTime today = DateTime.Today;
-
-            if (nameTextBox.Text == "" || userNameTextBox.Text == "" || passwordTextBox.Text == "" || emailTextBox.Text == "" || GenderComboBox.Text == "" || userTypeComboBox.Text== "")
-            {
-                MessageBox.Show("All boxes have to be filled");
-            }
-            else if (BirthOfDate >= today)
-            {
-                MessageBox.Show("Date of Birth Can't be Today's Date or greater than Today's Date", "Selected Date Error");
-                dateOfBirthDateTimePicker.Text = Convert.ToString(today);
-            }
-            else
-            {
-                UserService userService = new UserService();
-                bool results = userService.UsernameValidation(userNameTextBox.Text);
-                if (results)
-                {
-                    MessageBox.Show("This Username already exist");
-                }
-                else
-                {
-                    userService = new UserService();
-                    int result = userService.AddNewUser(nameTextBox.Text, userNameTextBox.Text, passwordTextBox.Text, emailTextBox.Text, dateOfBirthDateTimePicker.Text, GenderComboBox.Text,userTypeComboBox.Text);
-                    if (result > 0)
-                    {
-                        MessageBox.Show("User added successfully");
-                        ClearFields(this, null);
-                    }
-                    else
-                    {
-                        MessageBox.Show("Error adding user");
-                    }
-                }
             }
         }
 
@@ -170,5 +131,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             homeForAdmin.Show();
             this.Hide();
         }
+
     }
 }

@@ -44,7 +44,6 @@
             this.loadProductListGridView = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.searchProductNameTextBox = new System.Windows.Forms.TextBox();
-            this.RefreshButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.addQuantityProductNameTextBox = new System.Windows.Forms.TextBox();
@@ -80,7 +79,7 @@
             this.groupBox1.Controls.Add(this.productNameTextBox);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(700, 52);
+            this.groupBox1.Location = new System.Drawing.Point(700, 68);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(510, 307);
             this.groupBox1.TabIndex = 0;
@@ -229,18 +228,6 @@
             this.searchProductNameTextBox.TabIndex = 10;
             this.searchProductNameTextBox.TextChanged += new System.EventHandler(this.searchProductNameTextBox_TextChanged);
             // 
-            // RefreshButton
-            // 
-            this.RefreshButton.BackColor = System.Drawing.Color.Gray;
-            this.RefreshButton.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RefreshButton.Location = new System.Drawing.Point(1134, 646);
-            this.RefreshButton.Name = "RefreshButton";
-            this.RefreshButton.Size = new System.Drawing.Size(76, 31);
-            this.RefreshButton.TabIndex = 11;
-            this.RefreshButton.Text = "Refresh";
-            this.RefreshButton.UseVisualStyleBackColor = false;
-            this.RefreshButton.Click += new System.EventHandler(this.RefreshButton_Click);
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.loadProductListGridView);
@@ -262,12 +249,13 @@
             this.groupBox3.Controls.Add(this.addProductQuantityTextBox);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(700, 391);
+            this.groupBox3.Location = new System.Drawing.Point(700, 434);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(510, 224);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Add Quantity of Products";
+            //this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // addQuantityProductNameTextBox
             // 
@@ -399,7 +387,6 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.RefreshButton);
             this.Controls.Add(this.groupBox1);
             this.Name = "ProductManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -435,7 +422,6 @@
         private System.Windows.Forms.DataGridView loadProductListGridView;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox searchProductNameTextBox;
-        private System.Windows.Forms.Button RefreshButton;
         private System.Windows.Forms.Button DeleteProductButton;
         private System.Windows.Forms.Button UpdateProductButton;
         private System.Windows.Forms.GroupBox groupBox2;

@@ -41,7 +41,6 @@
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.loadListOfUsersGridView = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
-            this.addUserButton = new System.Windows.Forms.Button();
             this.updateUserButton = new System.Windows.Forms.Button();
             this.deleteUserButton = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
@@ -139,7 +138,7 @@
             "Female"});
             this.GenderComboBox.Location = new System.Drawing.Point(152, 306);
             this.GenderComboBox.Name = "GenderComboBox";
-            this.GenderComboBox.Size = new System.Drawing.Size(264, 27);
+            this.GenderComboBox.Size = new System.Drawing.Size(293, 27);
             this.GenderComboBox.TabIndex = 9;
             // 
             // nameTextBox
@@ -174,25 +173,12 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "List of Users";
             // 
-            // addUserButton
-            // 
-            this.addUserButton.BackColor = System.Drawing.Color.Silver;
-            this.addUserButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addUserButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addUserButton.Location = new System.Drawing.Point(94, 413);
-            this.addUserButton.Name = "addUserButton";
-            this.addUserButton.Size = new System.Drawing.Size(111, 30);
-            this.addUserButton.TabIndex = 14;
-            this.addUserButton.Text = "Add User";
-            this.addUserButton.UseVisualStyleBackColor = false;
-            this.addUserButton.Click += new System.EventHandler(this.addUserButton_Click);
-            // 
             // updateUserButton
             // 
             this.updateUserButton.BackColor = System.Drawing.Color.Silver;
             this.updateUserButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.updateUserButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.updateUserButton.Location = new System.Drawing.Point(225, 413);
+            this.updateUserButton.Location = new System.Drawing.Point(217, 427);
             this.updateUserButton.Name = "updateUserButton";
             this.updateUserButton.Size = new System.Drawing.Size(111, 30);
             this.updateUserButton.TabIndex = 15;
@@ -205,7 +191,7 @@
             this.deleteUserButton.BackColor = System.Drawing.Color.Silver;
             this.deleteUserButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteUserButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deleteUserButton.Location = new System.Drawing.Point(354, 413);
+            this.deleteUserButton.Location = new System.Drawing.Point(343, 427);
             this.deleteUserButton.Name = "deleteUserButton";
             this.deleteUserButton.Size = new System.Drawing.Size(111, 30);
             this.deleteUserButton.TabIndex = 16;
@@ -242,7 +228,6 @@
             this.groupBox1.Controls.Add(this.passwordTextBox);
             this.groupBox1.Controls.Add(this.updateUserButton);
             this.groupBox1.Controls.Add(this.nameTextBox);
-            this.groupBox1.Controls.Add(this.addUserButton);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.userNameTextBox);
@@ -267,16 +252,16 @@
             this.userTypeComboBox.Items.AddRange(new object[] {
             "Admin",
             "User"});
-            this.userTypeComboBox.Location = new System.Drawing.Point(152, 361);
+            this.userTypeComboBox.Location = new System.Drawing.Point(152, 366);
             this.userTypeComboBox.Name = "userTypeComboBox";
-            this.userTypeComboBox.Size = new System.Drawing.Size(264, 27);
+            this.userTypeComboBox.Size = new System.Drawing.Size(293, 27);
             this.userTypeComboBox.TabIndex = 20;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(26, 364);
+            this.label6.Location = new System.Drawing.Point(24, 374);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 19);
             this.label6.TabIndex = 19;
@@ -335,7 +320,6 @@
         private System.Windows.Forms.TextBox nameTextBox;
         private System.Windows.Forms.DataGridView loadListOfUsersGridView;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button addUserButton;
         private System.Windows.Forms.Button updateUserButton;
         private System.Windows.Forms.Button deleteUserButton;
         private System.Windows.Forms.Label label8;

@@ -25,8 +25,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             InitializeComponent();
             addProductButton.Click += this.RefreshGridView;
             addProductButton.Click += this.ClearFields;
-            RefreshButton.Click += this.RefreshGridView;
-            RefreshButton.Click += this.ClearFields;
             UpdateProductButton.Click += this.RefreshGridView;
             UpdateProductButton.Click += this.ClearFields;
             DeleteProductButton.Click += this.RefreshGridView;
@@ -130,14 +128,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             ProductService productService = new ProductService();
             loadProductListGridView.DataSource = productService.GetProductListForSearch(searchProductNameTextBox.Text);
         }
-        private void RefreshButton_Click(object sender, EventArgs e)
-        {
-            //ProductService productService = new ProductService();
-            //loadProductListGridView.DataSource = productService.GetProductList();
-            //CategoryService categoryService = new CategoryService();
-            //productCategoryComboBox.DataSource = categoryService.GetCategoryNameList();
-        }
-
 
         private void searchByQuantityNumberTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -194,5 +184,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
                 this.Hide();
             }
         }
+
     }
 }
