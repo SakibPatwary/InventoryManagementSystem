@@ -162,6 +162,8 @@
             // 
             // dateOfBirthDateTimePicker
             // 
+            this.dateOfBirthDateTimePicker.CalendarFont = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateOfBirthDateTimePicker.CalendarForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dateOfBirthDateTimePicker.CalendarMonthBackground = System.Drawing.SystemColors.MenuHighlight;
             this.dateOfBirthDateTimePicker.Location = new System.Drawing.Point(386, 323);
             this.dateOfBirthDateTimePicker.Name = "dateOfBirthDateTimePicker";

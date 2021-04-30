@@ -48,9 +48,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(49, 71);
+            this.groupBox1.Location = new System.Drawing.Point(24, 57);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(635, 301);
+            this.groupBox1.Size = new System.Drawing.Size(729, 301);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login";
@@ -59,7 +59,7 @@
             // 
             this.loginButton.BackColor = System.Drawing.Color.DarkGray;
             this.loginButton.Font = new System.Drawing.Font("Sylfaen", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginButton.Location = new System.Drawing.Point(263, 202);
+            this.loginButton.Location = new System.Drawing.Point(357, 200);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(178, 40);
             this.loginButton.TabIndex = 4;
@@ -69,19 +69,21 @@
             // 
             // passwordTextBox
             // 
+            this.passwordTextBox.BackColor = System.Drawing.Color.Silver;
             this.passwordTextBox.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordTextBox.Location = new System.Drawing.Point(263, 137);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
-            this.passwordTextBox.Size = new System.Drawing.Size(178, 30);
+            this.passwordTextBox.Size = new System.Drawing.Size(272, 30);
             this.passwordTextBox.TabIndex = 3;
             // 
             // usernameTextBox
             // 
+            this.usernameTextBox.BackColor = System.Drawing.Color.Silver;
             this.usernameTextBox.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameTextBox.Location = new System.Drawing.Point(263, 71);
             this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(178, 30);
+            this.usernameTextBox.Size = new System.Drawing.Size(272, 30);
             this.usernameTextBox.TabIndex = 2;
             // 
             // label2
@@ -118,7 +120,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(539, 401);
+            this.label5.Location = new System.Drawing.Point(549, 401);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(150, 18);
             this.label5.TabIndex = 4;
@@ -144,7 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(745, 456);
+            this.ClientSize = new System.Drawing.Size(797, 456);
             this.Controls.Add(this.RestrationLinkLabel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
