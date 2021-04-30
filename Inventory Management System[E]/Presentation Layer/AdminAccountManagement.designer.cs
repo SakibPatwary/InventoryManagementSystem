@@ -83,7 +83,7 @@
             // 
             this.UsernameLabel.AutoSize = true;
             this.UsernameLabel.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameLabel.ForeColor = System.Drawing.Color.Indigo;
+            this.UsernameLabel.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.UsernameLabel.Location = new System.Drawing.Point(176, 132);
             this.UsernameLabel.Name = "UsernameLabel";
             this.UsernameLabel.Size = new System.Drawing.Size(92, 22);
@@ -94,7 +94,7 @@
             // 
             this.NameLabel.AutoSize = true;
             this.NameLabel.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameLabel.ForeColor = System.Drawing.Color.Indigo;
+            this.NameLabel.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.NameLabel.Location = new System.Drawing.Point(149, 72);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(57, 22);
@@ -125,7 +125,7 @@
             // 
             this.GenderLabel.AutoSize = true;
             this.GenderLabel.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenderLabel.ForeColor = System.Drawing.Color.Indigo;
+            this.GenderLabel.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.GenderLabel.Location = new System.Drawing.Point(178, 298);
             this.GenderLabel.Name = "GenderLabel";
             this.GenderLabel.Size = new System.Drawing.Size(70, 22);
@@ -136,7 +136,7 @@
             // 
             this.DateOfBirthLabel.AutoSize = true;
             this.DateOfBirthLabel.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DateOfBirthLabel.ForeColor = System.Drawing.Color.Indigo;
+            this.DateOfBirthLabel.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.DateOfBirthLabel.Location = new System.Drawing.Point(201, 245);
             this.DateOfBirthLabel.Name = "DateOfBirthLabel";
             this.DateOfBirthLabel.Size = new System.Drawing.Size(114, 22);
@@ -147,7 +147,7 @@
             // 
             this.EmailLabel.AutoSize = true;
             this.EmailLabel.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmailLabel.ForeColor = System.Drawing.Color.Indigo;
+            this.EmailLabel.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.EmailLabel.Location = new System.Drawing.Point(152, 190);
             this.EmailLabel.Name = "EmailLabel";
             this.EmailLabel.Size = new System.Drawing.Size(56, 22);
@@ -219,6 +219,7 @@
             // 
             // nameTextBox
             // 
+            this.nameTextBox.BackColor = System.Drawing.Color.Silver;
             this.nameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameTextBox.Location = new System.Drawing.Point(171, 35);
             this.nameTextBox.Name = "nameTextBox";
@@ -237,17 +238,19 @@
             // 
             // updateUserInfoButton
             // 
+            this.updateUserInfoButton.BackColor = System.Drawing.Color.DimGray;
             this.updateUserInfoButton.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateUserInfoButton.Location = new System.Drawing.Point(243, 344);
             this.updateUserInfoButton.Name = "updateUserInfoButton";
             this.updateUserInfoButton.Size = new System.Drawing.Size(142, 32);
             this.updateUserInfoButton.TabIndex = 12;
             this.updateUserInfoButton.Text = "Update Info";
-            this.updateUserInfoButton.UseVisualStyleBackColor = true;
+            this.updateUserInfoButton.UseVisualStyleBackColor = false;
             this.updateUserInfoButton.Click += new System.EventHandler(this.updateUserInfoButton_Click);
             // 
             // useNameTextBox
             // 
+            this.useNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.useNameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.useNameTextBox.Location = new System.Drawing.Point(171, 82);
             this.useNameTextBox.Name = "useNameTextBox";
@@ -256,13 +259,14 @@
             // 
             // genderComboBox
             // 
+            this.genderComboBox.BackColor = System.Drawing.Color.Silver;
             this.genderComboBox.FormattingEnabled = true;
             this.genderComboBox.Items.AddRange(new object[] {
             "Male",
             "Female"});
             this.genderComboBox.Location = new System.Drawing.Point(171, 279);
             this.genderComboBox.Name = "genderComboBox";
-            this.genderComboBox.Size = new System.Drawing.Size(289, 27);
+            this.genderComboBox.Size = new System.Drawing.Size(310, 27);
             this.genderComboBox.TabIndex = 11;
             // 
             // label3
@@ -279,7 +283,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(68, 282);
+            this.label6.Location = new System.Drawing.Point(49, 282);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 19);
             this.label6.TabIndex = 5;
@@ -295,6 +299,7 @@
             // 
             // passwordTextBox
             // 
+            this.passwordTextBox.BackColor = System.Drawing.Color.Silver;
             this.passwordTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordTextBox.Location = new System.Drawing.Point(171, 128);
             this.passwordTextBox.Name = "passwordTextBox";
@@ -304,6 +309,7 @@
             // 
             // emailTextBox
             // 
+            this.emailTextBox.BackColor = System.Drawing.Color.Silver;
             this.emailTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailTextBox.Location = new System.Drawing.Point(171, 176);
             this.emailTextBox.Name = "emailTextBox";
@@ -355,6 +361,7 @@
             this.Controls.Add(this.BackToHomeButton1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "AdminAccountManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminAccountManagement";

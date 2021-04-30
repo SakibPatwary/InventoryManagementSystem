@@ -178,7 +178,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.lastOrderedLebel.AutoSize = true;
             this.lastOrderedLebel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastOrderedLebel.ForeColor = System.Drawing.Color.Indigo;
-            this.lastOrderedLebel.Location = new System.Drawing.Point(1005, 115);
+            this.lastOrderedLebel.Location = new System.Drawing.Point(1047, 115);
             this.lastOrderedLebel.Name = "lastOrderedLebel";
             this.lastOrderedLebel.Size = new System.Drawing.Size(0, 20);
             this.lastOrderedLebel.TabIndex = 35;
@@ -197,7 +197,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(1030, 73);
+            this.label7.Location = new System.Drawing.Point(992, 71);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(116, 19);
             this.label7.TabIndex = 34;
@@ -208,7 +208,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.orderCount.AutoSize = true;
             this.orderCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orderCount.ForeColor = System.Drawing.Color.Indigo;
-            this.orderCount.Location = new System.Drawing.Point(532, 137);
+            this.orderCount.Location = new System.Drawing.Point(594, 124);
             this.orderCount.Name = "orderCount";
             this.orderCount.Size = new System.Drawing.Size(0, 29);
             this.orderCount.TabIndex = 37;

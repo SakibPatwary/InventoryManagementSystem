@@ -357,7 +357,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "UserManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "User Management";
+            this.Text = "0";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HomeForUser_FormClosing);
             this.Load += new System.EventHandler(this.HomeForUser_Load);
             this.groupBox1.ResumeLayout(false);

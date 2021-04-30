@@ -66,36 +66,46 @@
             // 
             // deleteCategoryButton
             // 
+            this.deleteCategoryButton.BackColor = System.Drawing.Color.Silver;
+            this.deleteCategoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteCategoryButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCategoryButton.Location = new System.Drawing.Point(402, 95);
             this.deleteCategoryButton.Name = "deleteCategoryButton";
             this.deleteCategoryButton.Size = new System.Drawing.Size(134, 40);
             this.deleteCategoryButton.TabIndex = 2;
             this.deleteCategoryButton.Text = "Delete Category";
-            this.deleteCategoryButton.UseVisualStyleBackColor = true;
+            this.deleteCategoryButton.UseVisualStyleBackColor = false;
             this.deleteCategoryButton.Click += new System.EventHandler(this.deleteCategoryButton_Click);
             // 
             // updateCategoryButton
             // 
+            this.updateCategoryButton.BackColor = System.Drawing.Color.Silver;
+            this.updateCategoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.updateCategoryButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateCategoryButton.Location = new System.Drawing.Point(251, 95);
             this.updateCategoryButton.Name = "updateCategoryButton";
             this.updateCategoryButton.Size = new System.Drawing.Size(135, 40);
             this.updateCategoryButton.TabIndex = 2;
             this.updateCategoryButton.Text = "Update Category";
-            this.updateCategoryButton.UseVisualStyleBackColor = true;
+            this.updateCategoryButton.UseVisualStyleBackColor = false;
             this.updateCategoryButton.Click += new System.EventHandler(this.updateCategoryButton_Click);
             // 
             // addCategoryButton
             // 
+            this.addCategoryButton.BackColor = System.Drawing.Color.Silver;
+            this.addCategoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addCategoryButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCategoryButton.Location = new System.Drawing.Point(106, 95);
             this.addCategoryButton.Name = "addCategoryButton";
             this.addCategoryButton.Size = new System.Drawing.Size(124, 40);
             this.addCategoryButton.TabIndex = 2;
             this.addCategoryButton.Text = "Add Category";
-            this.addCategoryButton.UseVisualStyleBackColor = true;
+            this.addCategoryButton.UseVisualStyleBackColor = false;
             this.addCategoryButton.Click += new System.EventHandler(this.addCategoryButton_Click);
             // 
             // categoryNameTextBox
             // 
+            this.categoryNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.categoryNameTextBox.Location = new System.Drawing.Point(203, 40);
             this.categoryNameTextBox.Name = "categoryNameTextBox";
             this.categoryNameTextBox.Size = new System.Drawing.Size(183, 26);
@@ -134,9 +144,9 @@
             // 
             this.categoryWiseProductDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.categoryWiseProductDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.categoryWiseProductDataGridView.Location = new System.Drawing.Point(0, 103);
+            this.categoryWiseProductDataGridView.Location = new System.Drawing.Point(6, 97);
             this.categoryWiseProductDataGridView.Name = "categoryWiseProductDataGridView";
-            this.categoryWiseProductDataGridView.Size = new System.Drawing.Size(638, 307);
+            this.categoryWiseProductDataGridView.Size = new System.Drawing.Size(626, 307);
             this.categoryWiseProductDataGridView.TabIndex = 6;
             // 
             // groupBox2
@@ -166,6 +176,7 @@
             // 
             // categoryWiseProductcomboBox
             // 
+            this.categoryWiseProductcomboBox.BackColor = System.Drawing.Color.Silver;
             this.categoryWiseProductcomboBox.FormattingEnabled = true;
             this.categoryWiseProductcomboBox.Location = new System.Drawing.Point(195, 49);
             this.categoryWiseProductcomboBox.Name = "categoryWiseProductcomboBox";
