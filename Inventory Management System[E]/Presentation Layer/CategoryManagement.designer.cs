@@ -59,7 +59,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(638, 167);
+            this.groupBox1.Size = new System.Drawing.Size(638, 165);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Category Add/Update/Delete";
@@ -124,9 +124,9 @@
             // 
             this.loadCategoryDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.loadCategoryDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.loadCategoryDataGridView.Location = new System.Drawing.Point(689, 217);
+            this.loadCategoryDataGridView.Location = new System.Drawing.Point(670, 112);
             this.loadCategoryDataGridView.Name = "loadCategoryDataGridView";
-            this.loadCategoryDataGridView.Size = new System.Drawing.Size(333, 273);
+            this.loadCategoryDataGridView.Size = new System.Drawing.Size(333, 494);
             this.loadCategoryDataGridView.TabIndex = 5;
             this.loadCategoryDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.loadCategoryDataGridView_CellClick);
             // 
@@ -134,7 +134,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(790, 172);
+            this.label4.Location = new System.Drawing.Point(793, 69);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(124, 22);
             this.label4.TabIndex = 2;
@@ -146,7 +146,7 @@
             this.categoryWiseProductDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.categoryWiseProductDataGridView.Location = new System.Drawing.Point(6, 97);
             this.categoryWiseProductDataGridView.Name = "categoryWiseProductDataGridView";
-            this.categoryWiseProductDataGridView.Size = new System.Drawing.Size(626, 307);
+            this.categoryWiseProductDataGridView.Size = new System.Drawing.Size(626, 241);
             this.categoryWiseProductDataGridView.TabIndex = 6;
             // 
             // groupBox2
@@ -158,7 +158,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 258);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(638, 410);
+            this.groupBox2.Size = new System.Drawing.Size(638, 348);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Search Product List by Category";
@@ -214,7 +214,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(1058, 692);
+            this.ClientSize = new System.Drawing.Size(1058, 614);
             this.Controls.Add(this.backToHomeBuktton);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label4);

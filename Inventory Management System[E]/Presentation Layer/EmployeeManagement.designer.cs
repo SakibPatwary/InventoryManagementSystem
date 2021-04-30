@@ -159,7 +159,7 @@
             this.loadListOfUsersGridView.Location = new System.Drawing.Point(543, 134);
             this.loadListOfUsersGridView.Name = "loadListOfUsersGridView";
             this.loadListOfUsersGridView.ReadOnly = true;
-            this.loadListOfUsersGridView.Size = new System.Drawing.Size(581, 258);
+            this.loadListOfUsersGridView.Size = new System.Drawing.Size(581, 407);
             this.loadListOfUsersGridView.TabIndex = 12;
             this.loadListOfUsersGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.loadListOfUsersGridView_CellClick);
             // 
@@ -240,7 +240,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 59);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(506, 492);
+            this.groupBox1.Size = new System.Drawing.Size(506, 482);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Account\'s all  Operations";
@@ -288,7 +288,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(1163, 581);
+            this.ClientSize = new System.Drawing.Size(1143, 555);
             this.Controls.Add(this.backToHomeBuktton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label7);

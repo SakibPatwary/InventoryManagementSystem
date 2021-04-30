@@ -1,7 +1,7 @@
 ﻿
 namespace Sales_and_Inventory_Management_System.Presentation_Layer
 {
-    partial class IncertCustomer
+    partial class InsertCustomer
     {
         /// <summary>
         /// Required designer variable.

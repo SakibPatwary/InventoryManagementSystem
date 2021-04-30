@@ -105,11 +105,11 @@
     <Compile Include="Presentation Layer\OrderManagement.Designer.cs">
       <DependentUpon>OrderManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation Layer\IncertCustomer.cs">
+    <Compile Include="Presentation Layer\InsertCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation Layer\IncertCustomer.Designer.cs">
-      <DependentUpon>IncertCustomer.cs</DependentUpon>
+    <Compile Include="Presentation Layer\InsertCustomer.Designer.cs">
+      <DependentUpon>InsertCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentation Layer\CustomerManagement.cs">
       <SubType>Form</SubType>
@@ -164,8 +164,8 @@
     <EmbeddedResource Include="Presentation Layer\OrderManagement.resx">
       <DependentUpon>OrderManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation Layer\IncertCustomer.resx">
-      <DependentUpon>IncertCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="Presentation Layer\InsertCustomer.resx">
+      <DependentUpon>InsertCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation Layer\CustomerManagement.resx">
       <DependentUpon>CustomerManagement.cs</DependentUpon>

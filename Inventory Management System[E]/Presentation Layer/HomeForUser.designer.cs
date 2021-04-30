@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.logOutButton1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.CategoryButton = new System.Windows.Forms.Button();
             this.customerManagementButton = new System.Windows.Forms.Button();
             this.orderManagementButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.EmployeeNameLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.logOutButton1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,16 +49,33 @@
             this.groupBox1.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(30, 59);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(932, 451);
+            this.groupBox1.Size = new System.Drawing.Size(932, 384);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Employee Panel";
+            // 
+            // logOutButton1
+            // 
+            this.logOutButton1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.logOutButton1.FlatAppearance.BorderSize = 0;
+            this.logOutButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logOutButton1.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logOutButton1.ForeColor = System.Drawing.Color.Black;
+            this.logOutButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.logOutButton1.Location = new System.Drawing.Point(842, 315);
+            this.logOutButton1.Name = "logOutButton1";
+            this.logOutButton1.Size = new System.Drawing.Size(73, 33);
+            this.logOutButton1.TabIndex = 6;
+            this.logOutButton1.Text = "Log Out";
+            this.logOutButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.logOutButton1.UseVisualStyleBackColor = false;
+            this.logOutButton1.Click += new System.EventHandler(this.logOutButton1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.button2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(249, 196);
+            this.button2.Location = new System.Drawing.Point(253, 122);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(190, 92);
             this.button2.TabIndex = 14;
@@ -70,7 +87,7 @@
             // 
             this.CategoryButton.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.CategoryButton.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CategoryButton.Location = new System.Drawing.Point(26, 196);
+            this.CategoryButton.Location = new System.Drawing.Point(30, 122);
             this.CategoryButton.Name = "CategoryButton";
             this.CategoryButton.Size = new System.Drawing.Size(199, 92);
             this.CategoryButton.TabIndex = 13;
@@ -82,7 +99,7 @@
             // 
             this.customerManagementButton.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.customerManagementButton.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerManagementButton.Location = new System.Drawing.Point(694, 196);
+            this.customerManagementButton.Location = new System.Drawing.Point(698, 122);
             this.customerManagementButton.Name = "customerManagementButton";
             this.customerManagementButton.Size = new System.Drawing.Size(199, 92);
             this.customerManagementButton.TabIndex = 12;
@@ -94,7 +111,7 @@
             // 
             this.orderManagementButton.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.orderManagementButton.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderManagementButton.Location = new System.Drawing.Point(466, 196);
+            this.orderManagementButton.Location = new System.Drawing.Point(470, 122);
             this.orderManagementButton.Name = "orderManagementButton";
             this.orderManagementButton.Size = new System.Drawing.Size(204, 92);
             this.orderManagementButton.TabIndex = 11;
@@ -125,29 +142,12 @@
             this.EmployeeNameLinkLabel.Text = "Name";
             this.EmployeeNameLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EmployeeNameLinkLabel_LinkClicked);
             // 
-            // logOutButton1
-            // 
-            this.logOutButton1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.logOutButton1.FlatAppearance.BorderSize = 0;
-            this.logOutButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logOutButton1.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logOutButton1.ForeColor = System.Drawing.Color.Black;
-            this.logOutButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.logOutButton1.Location = new System.Drawing.Point(841, 402);
-            this.logOutButton1.Name = "logOutButton1";
-            this.logOutButton1.Size = new System.Drawing.Size(73, 33);
-            this.logOutButton1.TabIndex = 6;
-            this.logOutButton1.Text = "Log Out";
-            this.logOutButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.logOutButton1.UseVisualStyleBackColor = false;
-            this.logOutButton1.Click += new System.EventHandler(this.logOutButton1_Click);
-            // 
             // HomeForUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(1001, 564);
+            this.ClientSize = new System.Drawing.Size(1001, 475);
             this.Controls.Add(this.EmployeeNameLinkLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);

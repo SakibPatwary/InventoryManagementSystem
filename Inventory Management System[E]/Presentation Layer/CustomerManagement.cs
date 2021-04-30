@@ -89,11 +89,11 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             int result = customerService.AddNewCustomer(customerNameTextBox.Text, phoneNoTextBox.Text);
             if (result > 0)
             {
-                MessageBox.Show("Customer Incerted Successfully", "Incert Customer");
+                MessageBox.Show("Customer Inserted Successfully", "Insert Customer");
             }
             else
             {
-                MessageBox.Show("Problem in Incerting", "Incert Customer");
+                MessageBox.Show("Problem in Inserting", "Insert Customer");
             }
         }
 

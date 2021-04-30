@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace Sales_and_Inventory_Management_System.Presentation_Layer
 {
-    public partial class IncertCustomer : Form
+    public partial class InsertCustomer : Form
     {
         string username;
-        public IncertCustomer(string username)
+        public InsertCustomer(string username)
         {
             InitializeComponent();
             this.username = username;

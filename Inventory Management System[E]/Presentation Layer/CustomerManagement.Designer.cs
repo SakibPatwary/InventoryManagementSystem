@@ -113,7 +113,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.ordersLoadGridView.Location = new System.Drawing.Point(0, 100);
             this.ordersLoadGridView.Name = "ordersLoadGridView";
             this.ordersLoadGridView.ReadOnly = true;
-            this.ordersLoadGridView.Size = new System.Drawing.Size(1285, 196);
+            this.ordersLoadGridView.Size = new System.Drawing.Size(1285, 174);
             this.ordersLoadGridView.TabIndex = 4;
             this.ordersLoadGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ordersLoadGridView_CellClick);
             // 
@@ -295,9 +295,9 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.groupBox3.Controls.Add(this.RemoveOrderButton);
             this.groupBox3.Controls.Add(this.RemoveTextBox);
             this.groupBox3.Controls.Add(this.ordersLoadGridView);
-            this.groupBox3.Location = new System.Drawing.Point(26, 395);
+            this.groupBox3.Location = new System.Drawing.Point(26, 383);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1285, 299);
+            this.groupBox3.Size = new System.Drawing.Size(1285, 282);
             this.groupBox3.TabIndex = 34;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Orders";
@@ -460,7 +460,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(1323, 706);
+            this.ClientSize = new System.Drawing.Size(1323, 672);
             this.Controls.Add(this.BackToHomeButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);

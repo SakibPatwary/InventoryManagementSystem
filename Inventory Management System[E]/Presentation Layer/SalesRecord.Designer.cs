@@ -178,7 +178,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.lastOrderedLebel.AutoSize = true;
             this.lastOrderedLebel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastOrderedLebel.ForeColor = System.Drawing.Color.Indigo;
-            this.lastOrderedLebel.Location = new System.Drawing.Point(1047, 115);
+            this.lastOrderedLebel.Location = new System.Drawing.Point(1015, 119);
             this.lastOrderedLebel.Name = "lastOrderedLebel";
             this.lastOrderedLebel.Size = new System.Drawing.Size(0, 20);
             this.lastOrderedLebel.TabIndex = 35;
@@ -197,7 +197,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(992, 71);
+            this.label7.Location = new System.Drawing.Point(960, 75);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(116, 19);
             this.label7.TabIndex = 34;
@@ -252,7 +252,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(1225, 651);
+            this.ClientSize = new System.Drawing.Size(1225, 628);
             this.Controls.Add(this.HomeButton);
             this.Controls.Add(this.refreshButton);
             this.Controls.Add(this.label6);

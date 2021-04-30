@@ -147,7 +147,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
         private void addNewCustomer_Click(object sender, EventArgs e)
         {
             this.Hide();
-            IncertCustomer customerAdd = new IncertCustomer(username);
+            InsertCustomer customerAdd = new InsertCustomer(username);
             customerAdd.Show();
 
         }

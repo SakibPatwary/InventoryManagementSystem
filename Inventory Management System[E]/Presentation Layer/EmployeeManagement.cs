@@ -19,7 +19,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
         {
             this.username = username;
             InitializeComponent();
-            addUserButton.Click += this.RefreshGridView;
             updateUserButton.Click += this.RefreshGridView;
             updateUserButton.Click += this.ClearFields;
             deleteUserButton.Click += this.RefreshGridView;

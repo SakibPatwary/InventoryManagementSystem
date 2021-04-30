@@ -203,7 +203,7 @@
             this.groupBox1.Size = new System.Drawing.Size(489, 412);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Account Details";
+            this.groupBox1.Text = "Edit Details";
             // 
             // groupBox2
             // 
@@ -223,7 +223,7 @@
             this.groupBox2.Size = new System.Drawing.Size(529, 412);
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Account Details After Edit";
+            this.groupBox2.Text = "Account Details";
             // 
             // UsernameLabel
             // 
@@ -351,7 +351,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(1082, 543);
+            this.ClientSize = new System.Drawing.Size(1082, 525);
             this.Controls.Add(this.backToHomeBuktton1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

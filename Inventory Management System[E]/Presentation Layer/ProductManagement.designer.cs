@@ -255,7 +255,6 @@
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Add Quantity of Products";
-            //this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // addQuantityProductNameTextBox
             // 
@@ -315,7 +314,7 @@
             this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(12, 391);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(669, 286);
+            this.groupBox4.Size = new System.Drawing.Size(669, 267);
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Insufficient Quantity of Products";
@@ -357,7 +356,7 @@
             this.loadInsufficientQuantityProductsListGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.loadInsufficientQuantityProductsListGridView.Location = new System.Drawing.Point(0, 89);
             this.loadInsufficientQuantityProductsListGridView.Name = "loadInsufficientQuantityProductsListGridView";
-            this.loadInsufficientQuantityProductsListGridView.Size = new System.Drawing.Size(669, 196);
+            this.loadInsufficientQuantityProductsListGridView.Size = new System.Drawing.Size(669, 178);
             this.loadInsufficientQuantityProductsListGridView.TabIndex = 0;
             this.loadInsufficientQuantityProductsListGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.loadInsufficientQuantityProductsListGridView_CellClick);
             // 
