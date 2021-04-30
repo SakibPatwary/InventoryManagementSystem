@@ -350,8 +350,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1183, 749);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(1174, 617);
             this.Controls.Add(this.BackToHomeButton1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

@@ -52,6 +52,7 @@
             this.groupBox1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.totalOrderedAmount);
+            this.groupBox1.Controls.Add(this.LogOutButton);
             this.groupBox1.Controls.Add(this.lastOrderedLebel);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
@@ -212,24 +213,26 @@
             // 
             // LogOutButton
             // 
+            this.LogOutButton.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.LogOutButton.FlatAppearance.BorderSize = 0;
-            this.LogOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LogOutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogOutButton.ForeColor = System.Drawing.Color.Red;
+            this.LogOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.LogOutButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOutButton.ForeColor = System.Drawing.Color.Black;
             this.LogOutButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LogOutButton.Location = new System.Drawing.Point(1038, 673);
+            this.LogOutButton.Location = new System.Drawing.Point(989, 561);
             this.LogOutButton.Name = "LogOutButton";
-            this.LogOutButton.Size = new System.Drawing.Size(77, 36);
+            this.LogOutButton.Size = new System.Drawing.Size(77, 39);
             this.LogOutButton.TabIndex = 1;
             this.LogOutButton.Text = "Log Out";
             this.LogOutButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.LogOutButton.UseVisualStyleBackColor = true;
+            this.LogOutButton.UseVisualStyleBackColor = false;
             this.LogOutButton.Click += new System.EventHandler(this.LogOutButton_Click);
             // 
             // AdminNamelinkLabel
             // 
             this.AdminNamelinkLabel.AutoSize = true;
             this.AdminNamelinkLabel.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminNamelinkLabel.LinkColor = System.Drawing.Color.White;
             this.AdminNamelinkLabel.Location = new System.Drawing.Point(1064, 31);
             this.AdminNamelinkLabel.Name = "AdminNamelinkLabel";
             this.AdminNamelinkLabel.Size = new System.Drawing.Size(51, 19);
@@ -253,10 +256,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(1173, 724);
+            this.ClientSize = new System.Drawing.Size(1167, 707);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.AdminNamelinkLabel);
-            this.Controls.Add(this.LogOutButton);
             this.Controls.Add(this.groupBox1);
             this.Name = "HomeForAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

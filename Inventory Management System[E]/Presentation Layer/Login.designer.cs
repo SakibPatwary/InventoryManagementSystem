@@ -47,7 +47,7 @@
             this.groupBox1.Controls.Add(this.usernameTextBox);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(49, 71);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(635, 301);
@@ -123,10 +123,10 @@
             this.label5.Size = new System.Drawing.Size(150, 18);
             this.label5.TabIndex = 4;
             this.label5.Text = "for USER ACCOUNT";
-            //this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // RestrationLinkLabel
             // 
+            this.RestrationLinkLabel.ActiveLinkColor = System.Drawing.Color.Maroon;
             this.RestrationLinkLabel.AutoSize = true;
             this.RestrationLinkLabel.BackColor = System.Drawing.Color.Gray;
             this.RestrationLinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));

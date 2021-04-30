@@ -53,11 +53,11 @@
             this.addProductQuantityTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.searchByQuantityNumberTextBox = new System.Windows.Forms.TextBox();
             this.loadInsufficientQuantityProductsListGridView = new System.Windows.Forms.DataGridView();
             this.backToHomeBuktton1 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.loadProductListGridView)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -79,36 +79,39 @@
             this.groupBox1.Controls.Add(this.addProductButton);
             this.groupBox1.Controls.Add(this.productNameTextBox);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(30, 82);
+            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(700, 52);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(510, 327);
+            this.groupBox1.Size = new System.Drawing.Size(510, 307);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Product Add/Update/Delete";
             // 
             // DeleteProductButton
             // 
+            this.DeleteProductButton.BackColor = System.Drawing.Color.DarkGray;
             this.DeleteProductButton.Location = new System.Drawing.Point(334, 263);
             this.DeleteProductButton.Name = "DeleteProductButton";
             this.DeleteProductButton.Size = new System.Drawing.Size(111, 30);
             this.DeleteProductButton.TabIndex = 10;
             this.DeleteProductButton.Text = "Delete";
-            this.DeleteProductButton.UseVisualStyleBackColor = true;
+            this.DeleteProductButton.UseVisualStyleBackColor = false;
             this.DeleteProductButton.Click += new System.EventHandler(this.DeleteProductButton_Click);
             // 
             // UpdateProductButton
             // 
+            this.UpdateProductButton.BackColor = System.Drawing.Color.DarkGray;
             this.UpdateProductButton.Location = new System.Drawing.Point(202, 263);
             this.UpdateProductButton.Name = "UpdateProductButton";
             this.UpdateProductButton.Size = new System.Drawing.Size(111, 30);
             this.UpdateProductButton.TabIndex = 9;
             this.UpdateProductButton.Text = "Update";
-            this.UpdateProductButton.UseVisualStyleBackColor = true;
+            this.UpdateProductButton.UseVisualStyleBackColor = false;
             this.UpdateProductButton.Click += new System.EventHandler(this.UpdateProductButton_Click);
             // 
             // productCategoryComboBox
             // 
+            this.productCategoryComboBox.BackColor = System.Drawing.Color.Silver;
             this.productCategoryComboBox.FormattingEnabled = true;
             this.productCategoryComboBox.Location = new System.Drawing.Point(167, 181);
             this.productCategoryComboBox.Name = "productCategoryComboBox";
@@ -117,6 +120,7 @@
             // 
             // productQuantityTextBox
             // 
+            this.productQuantityTextBox.BackColor = System.Drawing.Color.Silver;
             this.productQuantityTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productQuantityTextBox.Location = new System.Drawing.Point(167, 135);
             this.productQuantityTextBox.Name = "productQuantityTextBox";
@@ -125,6 +129,7 @@
             // 
             // productPriceTextBox
             // 
+            this.productPriceTextBox.BackColor = System.Drawing.Color.Silver;
             this.productPriceTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productPriceTextBox.Location = new System.Drawing.Point(167, 94);
             this.productPriceTextBox.Name = "productPriceTextBox";
@@ -134,7 +139,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(30, 184);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 19);
@@ -144,17 +149,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(30, 97);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 19);
+            this.label3.Size = new System.Drawing.Size(43, 19);
             this.label3.TabIndex = 4;
             this.label3.Text = "Price";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(34, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 19);
@@ -163,16 +168,18 @@
             // 
             // addProductButton
             // 
+            this.addProductButton.BackColor = System.Drawing.Color.DarkGray;
             this.addProductButton.Location = new System.Drawing.Point(62, 263);
             this.addProductButton.Name = "addProductButton";
             this.addProductButton.Size = new System.Drawing.Size(117, 30);
             this.addProductButton.TabIndex = 2;
             this.addProductButton.Text = "Add Product";
-            this.addProductButton.UseVisualStyleBackColor = true;
+            this.addProductButton.UseVisualStyleBackColor = false;
             this.addProductButton.Click += new System.EventHandler(this.addProductButton_Click);
             // 
             // productNameTextBox
             // 
+            this.productNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.productNameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productNameTextBox.Location = new System.Drawing.Point(167, 53);
             this.productNameTextBox.Name = "productNameTextBox";
@@ -182,10 +189,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(30, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 19);
+            this.label1.Size = new System.Drawing.Size(104, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Product Name";
             // 
@@ -198,22 +205,23 @@
             this.loadProductListGridView.Location = new System.Drawing.Point(0, 89);
             this.loadProductListGridView.Name = "loadProductListGridView";
             this.loadProductListGridView.ReadOnly = true;
-            this.loadProductListGridView.Size = new System.Drawing.Size(669, 238);
+            this.loadProductListGridView.Size = new System.Drawing.Size(669, 204);
             this.loadProductListGridView.TabIndex = 1;
             this.loadProductListGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.loadProductListGridView_CellClick);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(61, 48);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(180, 19);
+            this.label6.Size = new System.Drawing.Size(174, 19);
             this.label6.TabIndex = 9;
             this.label6.Text = "Search by Product Name";
             // 
             // searchProductNameTextBox
             // 
+            this.searchProductNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.searchProductNameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchProductNameTextBox.Location = new System.Drawing.Point(266, 45);
             this.searchProductNameTextBox.Name = "searchProductNameTextBox";
@@ -223,13 +231,14 @@
             // 
             // RefreshButton
             // 
+            this.RefreshButton.BackColor = System.Drawing.Color.Gray;
             this.RefreshButton.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RefreshButton.Location = new System.Drawing.Point(1165, 18);
+            this.RefreshButton.Location = new System.Drawing.Point(1134, 646);
             this.RefreshButton.Name = "RefreshButton";
             this.RefreshButton.Size = new System.Drawing.Size(76, 31);
             this.RefreshButton.TabIndex = 11;
             this.RefreshButton.Text = "Refresh";
-            this.RefreshButton.UseVisualStyleBackColor = true;
+            this.RefreshButton.UseVisualStyleBackColor = false;
             this.RefreshButton.Click += new System.EventHandler(this.RefreshButton_Click);
             // 
             // groupBox2
@@ -237,10 +246,10 @@
             this.groupBox2.Controls.Add(this.loadProductListGridView);
             this.groupBox2.Controls.Add(this.searchProductNameTextBox);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(572, 82);
+            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(12, 82);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(669, 327);
+            this.groupBox2.Size = new System.Drawing.Size(669, 293);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "List of Products";
@@ -252,16 +261,17 @@
             this.groupBox3.Controls.Add(this.addProductQuantityButton);
             this.groupBox3.Controls.Add(this.addProductQuantityTextBox);
             this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(30, 443);
+            this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(700, 391);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(510, 269);
+            this.groupBox3.Size = new System.Drawing.Size(510, 224);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Add Quantity of Products";
             // 
             // addQuantityProductNameTextBox
             // 
+            this.addQuantityProductNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.addQuantityProductNameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addQuantityProductNameTextBox.Location = new System.Drawing.Point(209, 61);
             this.addQuantityProductNameTextBox.Name = "addQuantityProductNameTextBox";
@@ -271,25 +281,27 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(71, 64);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 19);
+            this.label8.Size = new System.Drawing.Size(104, 19);
             this.label8.TabIndex = 11;
             this.label8.Text = "Product Name";
             // 
             // addProductQuantityButton
             // 
+            this.addProductQuantityButton.BackColor = System.Drawing.Color.DarkGray;
             this.addProductQuantityButton.Location = new System.Drawing.Point(226, 158);
             this.addProductQuantityButton.Name = "addProductQuantityButton";
             this.addProductQuantityButton.Size = new System.Drawing.Size(153, 30);
             this.addProductQuantityButton.TabIndex = 11;
             this.addProductQuantityButton.Text = "Add Quantity";
-            this.addProductQuantityButton.UseVisualStyleBackColor = true;
+            this.addProductQuantityButton.UseVisualStyleBackColor = false;
             this.addProductQuantityButton.Click += new System.EventHandler(this.addProductQuantityButton_Click);
             // 
             // addProductQuantityTextBox
             // 
+            this.addProductQuantityTextBox.BackColor = System.Drawing.Color.Silver;
             this.addProductQuantityTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProductQuantityTextBox.Location = new System.Drawing.Point(209, 112);
             this.addProductQuantityTextBox.Name = "addProductQuantityTextBox";
@@ -299,7 +311,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(71, 115);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 19);
@@ -312,26 +324,37 @@
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.searchByQuantityNumberTextBox);
             this.groupBox4.Controls.Add(this.loadInsufficientQuantityProductsListGridView);
-            this.groupBox4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(572, 415);
+            this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(12, 391);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(669, 322);
+            this.groupBox4.Size = new System.Drawing.Size(669, 286);
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Insufficient Quantity of Products";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(521, 41);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(134, 19);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "(Default value 10)";
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(91, 43);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(309, 17);
+            this.label7.Size = new System.Drawing.Size(321, 17);
             this.label7.TabIndex = 13;
             this.label7.Text = "Products which have Quantity less than or equal";
             // 
             // searchByQuantityNumberTextBox
             // 
+            this.searchByQuantityNumberTextBox.BackColor = System.Drawing.Color.Silver;
             this.searchByQuantityNumberTextBox.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchByQuantityNumberTextBox.Location = new System.Drawing.Point(417, 39);
             this.searchByQuantityNumberTextBox.Name = "searchByQuantityNumberTextBox";
@@ -346,7 +369,7 @@
             this.loadInsufficientQuantityProductsListGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.loadInsufficientQuantityProductsListGridView.Location = new System.Drawing.Point(0, 89);
             this.loadInsufficientQuantityProductsListGridView.Name = "loadInsufficientQuantityProductsListGridView";
-            this.loadInsufficientQuantityProductsListGridView.Size = new System.Drawing.Size(669, 233);
+            this.loadInsufficientQuantityProductsListGridView.Size = new System.Drawing.Size(669, 196);
             this.loadInsufficientQuantityProductsListGridView.TabIndex = 0;
             this.loadInsufficientQuantityProductsListGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.loadInsufficientQuantityProductsListGridView_CellClick);
             // 
@@ -366,22 +389,12 @@
             this.backToHomeBuktton1.UseVisualStyleBackColor = true;
             this.backToHomeBuktton1.Click += new System.EventHandler(this.backToHomeBuktton1_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(521, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(134, 19);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "(Default value 10)";
-            // 
             // ProductManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1272, 763);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(1241, 745);
             this.Controls.Add(this.backToHomeBuktton1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);

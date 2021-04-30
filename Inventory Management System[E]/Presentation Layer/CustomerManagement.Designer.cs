@@ -99,7 +99,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.customerLoadDataGridView.Location = new System.Drawing.Point(0, 52);
             this.customerLoadDataGridView.Name = "customerLoadDataGridView";
             this.customerLoadDataGridView.ReadOnly = true;
-            this.customerLoadDataGridView.Size = new System.Drawing.Size(500, 292);
+            this.customerLoadDataGridView.Size = new System.Drawing.Size(500, 272);
             this.customerLoadDataGridView.TabIndex = 3;
             this.customerLoadDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CustomerLoadDataGridView_CellClick);
             // 
@@ -112,7 +112,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.ordersLoadGridView.Location = new System.Drawing.Point(0, 100);
             this.ordersLoadGridView.Name = "ordersLoadGridView";
             this.ordersLoadGridView.ReadOnly = true;
-            this.ordersLoadGridView.Size = new System.Drawing.Size(1299, 339);
+            this.ordersLoadGridView.Size = new System.Drawing.Size(1299, 196);
             this.ordersLoadGridView.TabIndex = 4;
             this.ordersLoadGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ordersLoadGridView_CellClick);
             // 
@@ -128,7 +128,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(26, 50);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(812, 344);
+            this.groupBox1.Size = new System.Drawing.Size(812, 327);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customers";
@@ -221,7 +221,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.groupBox2.Controls.Add(this.customerNameTextBox);
             this.groupBox2.Location = new System.Drawing.Point(856, 50);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(455, 344);
+            this.groupBox2.Size = new System.Drawing.Size(455, 324);
             this.groupBox2.TabIndex = 33;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Customer operation";
@@ -286,9 +286,9 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.groupBox3.Controls.Add(this.RemoveOrderButton);
             this.groupBox3.Controls.Add(this.RemoveTextBox);
             this.groupBox3.Controls.Add(this.ordersLoadGridView);
-            this.groupBox3.Location = new System.Drawing.Point(13, 417);
+            this.groupBox3.Location = new System.Drawing.Point(26, 395);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1298, 441);
+            this.groupBox3.Size = new System.Drawing.Size(1285, 299);
             this.groupBox3.TabIndex = 34;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Orders";
@@ -404,7 +404,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // 
             this.RemoveTextBox.Location = new System.Drawing.Point(1094, 16);
             this.RemoveTextBox.Name = "RemoveTextBox";
-            this.RemoveTextBox.Size = new System.Drawing.Size(191, 20);
+            this.RemoveTextBox.Size = new System.Drawing.Size(181, 20);
             this.RemoveTextBox.TabIndex = 27;
             // 
             // label7
@@ -447,8 +447,8 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1323, 866);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(1323, 706);
             this.Controls.Add(this.BackToHomeButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);

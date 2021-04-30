@@ -100,7 +100,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.comboBox1.BackColor = System.Drawing.Color.Silver;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "A+",
@@ -183,9 +183,9 @@
             // 
             this.submitButton.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.submitButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.submitButton.Location = new System.Drawing.Point(273, 545);
+            this.submitButton.Location = new System.Drawing.Point(503, 530);
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(281, 40);
+            this.submitButton.Size = new System.Drawing.Size(233, 40);
             this.submitButton.TabIndex = 16;
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = false;
@@ -195,13 +195,12 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(273, 483);
+            this.checkBox1.Location = new System.Drawing.Point(387, 487);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(258, 21);
             this.checkBox1.TabIndex = 15;
             this.checkBox1.Text = "I agree all the terms and conditions";
             this.checkBox1.UseVisualStyleBackColor = true;
-            //this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // confirmPasswordTextBox
             // 

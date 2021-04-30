@@ -42,37 +42,39 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // 
             // customerNameTextBox
             // 
+            this.customerNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.customerNameTextBox.Location = new System.Drawing.Point(169, 38);
             this.customerNameTextBox.Name = "customerNameTextBox";
-            this.customerNameTextBox.Size = new System.Drawing.Size(265, 22);
+            this.customerNameTextBox.Size = new System.Drawing.Size(265, 26);
             this.customerNameTextBox.TabIndex = 0;
             // 
             // phoneNoTextBox
             // 
+            this.phoneNoTextBox.BackColor = System.Drawing.Color.Silver;
             this.phoneNoTextBox.Location = new System.Drawing.Point(169, 97);
             this.phoneNoTextBox.Name = "phoneNoTextBox";
-            this.phoneNoTextBox.Size = new System.Drawing.Size(265, 22);
+            this.phoneNoTextBox.Size = new System.Drawing.Size(265, 26);
             this.phoneNoTextBox.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label4.Location = new System.Drawing.Point(25, 42);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(118, 16);
+            this.label4.Size = new System.Drawing.Size(115, 17);
             this.label4.TabIndex = 19;
             this.label4.Text = "Customer Name";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.label1.Location = new System.Drawing.Point(25, 97);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 16);
+            this.label1.Size = new System.Drawing.Size(72, 17);
             this.label1.TabIndex = 20;
             this.label1.Text = "Phone No";
             // 
@@ -83,7 +85,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.phoneNoTextBox);
             this.groupBox1.Controls.Add(this.customerNameTextBox);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(41, 73);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(467, 204);
@@ -93,11 +95,12 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // 
             // incertButton
             // 
+            this.incertButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.incertButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.incertButton.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.incertButton.Location = new System.Drawing.Point(215, 141);
+            this.incertButton.ForeColor = System.Drawing.Color.Black;
+            this.incertButton.Location = new System.Drawing.Point(317, 147);
             this.incertButton.Name = "incertButton";
-            this.incertButton.Size = new System.Drawing.Size(152, 47);
+            this.incertButton.Size = new System.Drawing.Size(117, 41);
             this.incertButton.TabIndex = 35;
             this.incertButton.Text = "Insert";
             this.incertButton.UseVisualStyleBackColor = true;
@@ -106,18 +109,19 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(173, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 24);
+            this.label2.Size = new System.Drawing.Size(170, 22);
             this.label2.TabIndex = 22;
             this.label2.Text = "Add New Customer";
             // 
             // backButton
             // 
+            this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.backButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(75, 23);
@@ -130,7 +134,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(553, 333);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.label2);
