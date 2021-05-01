@@ -45,24 +45,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.searchProductNameTextBox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.addQuantityProductNameTextBox = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.addProductQuantityButton = new System.Windows.Forms.Button();
-            this.addProductQuantityTextBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.searchByQuantityNumberTextBox = new System.Windows.Forms.TextBox();
-            this.loadInsufficientQuantityProductsListGridView = new System.Windows.Forms.DataGridView();
             this.backToHomeBuktton1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.loadProductListGridView)).BeginInit();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.loadInsufficientQuantityProductsListGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -79,9 +65,9 @@
             this.groupBox1.Controls.Add(this.productNameTextBox);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(700, 68);
+            this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(510, 307);
+            this.groupBox1.Size = new System.Drawing.Size(669, 289);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Product Add/Update/Delete";
@@ -89,9 +75,9 @@
             // DeleteProductButton
             // 
             this.DeleteProductButton.BackColor = System.Drawing.Color.DarkGray;
-            this.DeleteProductButton.Location = new System.Drawing.Point(334, 263);
+            this.DeleteProductButton.Location = new System.Drawing.Point(453, 232);
             this.DeleteProductButton.Name = "DeleteProductButton";
-            this.DeleteProductButton.Size = new System.Drawing.Size(111, 30);
+            this.DeleteProductButton.Size = new System.Drawing.Size(117, 30);
             this.DeleteProductButton.TabIndex = 10;
             this.DeleteProductButton.Text = "Delete";
             this.DeleteProductButton.UseVisualStyleBackColor = false;
@@ -100,7 +86,7 @@
             // UpdateProductButton
             // 
             this.UpdateProductButton.BackColor = System.Drawing.Color.DarkGray;
-            this.UpdateProductButton.Location = new System.Drawing.Point(202, 263);
+            this.UpdateProductButton.Location = new System.Drawing.Point(327, 232);
             this.UpdateProductButton.Name = "UpdateProductButton";
             this.UpdateProductButton.Size = new System.Drawing.Size(111, 30);
             this.UpdateProductButton.TabIndex = 9;
@@ -168,7 +154,7 @@
             // addProductButton
             // 
             this.addProductButton.BackColor = System.Drawing.Color.DarkGray;
-            this.addProductButton.Location = new System.Drawing.Point(62, 263);
+            this.addProductButton.Location = new System.Drawing.Point(192, 232);
             this.addProductButton.Name = "addProductButton";
             this.addProductButton.Size = new System.Drawing.Size(117, 30);
             this.addProductButton.TabIndex = 2;
@@ -234,131 +220,12 @@
             this.groupBox2.Controls.Add(this.searchProductNameTextBox);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 82);
+            this.groupBox2.Location = new System.Drawing.Point(12, 373);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(669, 293);
+            this.groupBox2.Size = new System.Drawing.Size(669, 269);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "List of Products";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.addQuantityProductNameTextBox);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.addProductQuantityButton);
-            this.groupBox3.Controls.Add(this.addProductQuantityTextBox);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(700, 434);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(510, 224);
-            this.groupBox3.TabIndex = 13;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Add Quantity of Products";
-            // 
-            // addQuantityProductNameTextBox
-            // 
-            this.addQuantityProductNameTextBox.BackColor = System.Drawing.Color.Silver;
-            this.addQuantityProductNameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addQuantityProductNameTextBox.Location = new System.Drawing.Point(209, 61);
-            this.addQuantityProductNameTextBox.Name = "addQuantityProductNameTextBox";
-            this.addQuantityProductNameTextBox.Size = new System.Drawing.Size(195, 26);
-            this.addQuantityProductNameTextBox.TabIndex = 12;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(71, 64);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 19);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Product Name";
-            // 
-            // addProductQuantityButton
-            // 
-            this.addProductQuantityButton.BackColor = System.Drawing.Color.DarkGray;
-            this.addProductQuantityButton.Location = new System.Drawing.Point(226, 158);
-            this.addProductQuantityButton.Name = "addProductQuantityButton";
-            this.addProductQuantityButton.Size = new System.Drawing.Size(153, 30);
-            this.addProductQuantityButton.TabIndex = 11;
-            this.addProductQuantityButton.Text = "Add Quantity";
-            this.addProductQuantityButton.UseVisualStyleBackColor = false;
-            this.addProductQuantityButton.Click += new System.EventHandler(this.addProductQuantityButton_Click);
-            // 
-            // addProductQuantityTextBox
-            // 
-            this.addProductQuantityTextBox.BackColor = System.Drawing.Color.Silver;
-            this.addProductQuantityTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addProductQuantityTextBox.Location = new System.Drawing.Point(209, 112);
-            this.addProductQuantityTextBox.Name = "addProductQuantityTextBox";
-            this.addProductQuantityTextBox.Size = new System.Drawing.Size(195, 26);
-            this.addProductQuantityTextBox.TabIndex = 11;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(71, 115);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 19);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Quantity";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Controls.Add(this.searchByQuantityNumberTextBox);
-            this.groupBox4.Controls.Add(this.loadInsufficientQuantityProductsListGridView);
-            this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(12, 391);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(669, 267);
-            this.groupBox4.TabIndex = 14;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Insufficient Quantity of Products";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(521, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(134, 19);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "(Default value 10)";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(91, 43);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(321, 17);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Products which have Quantity less than or equal";
-            // 
-            // searchByQuantityNumberTextBox
-            // 
-            this.searchByQuantityNumberTextBox.BackColor = System.Drawing.Color.Silver;
-            this.searchByQuantityNumberTextBox.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchByQuantityNumberTextBox.Location = new System.Drawing.Point(417, 39);
-            this.searchByQuantityNumberTextBox.Name = "searchByQuantityNumberTextBox";
-            this.searchByQuantityNumberTextBox.Size = new System.Drawing.Size(98, 25);
-            this.searchByQuantityNumberTextBox.TabIndex = 12;
-            this.searchByQuantityNumberTextBox.Text = "10";
-            this.searchByQuantityNumberTextBox.TextChanged += new System.EventHandler(this.searchByQuantityNumberTextBox_TextChanged);
-            // 
-            // loadInsufficientQuantityProductsListGridView
-            // 
-            this.loadInsufficientQuantityProductsListGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.loadInsufficientQuantityProductsListGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.loadInsufficientQuantityProductsListGridView.Location = new System.Drawing.Point(0, 89);
-            this.loadInsufficientQuantityProductsListGridView.Name = "loadInsufficientQuantityProductsListGridView";
-            this.loadInsufficientQuantityProductsListGridView.Size = new System.Drawing.Size(669, 178);
-            this.loadInsufficientQuantityProductsListGridView.TabIndex = 0;
-            this.loadInsufficientQuantityProductsListGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.loadInsufficientQuantityProductsListGridView_CellClick);
             // 
             // backToHomeBuktton1
             // 
@@ -381,10 +248,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(1241, 745);
+            this.ClientSize = new System.Drawing.Size(692, 650);
             this.Controls.Add(this.backToHomeBuktton1);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "ProductManagement";
@@ -397,11 +262,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.loadProductListGridView)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.loadInsufficientQuantityProductsListGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -424,17 +284,6 @@
         private System.Windows.Forms.Button DeleteProductButton;
         private System.Windows.Forms.Button UpdateProductButton;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button addProductQuantityButton;
-        private System.Windows.Forms.TextBox addProductQuantityTextBox;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.DataGridView loadInsufficientQuantityProductsListGridView;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox searchByQuantityNumberTextBox;
-        private System.Windows.Forms.TextBox addQuantityProductNameTextBox;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button backToHomeBuktton1;
-        private System.Windows.Forms.Label label9;
     }
 }

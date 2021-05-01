@@ -18,7 +18,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
         string username;
         int cid;
         int value = 0;
-        int min = 10;
         public ProductManagement(string username)
         {
             this.username = username;
@@ -29,8 +28,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             UpdateProductButton.Click += this.ClearFields;
             DeleteProductButton.Click += this.RefreshGridView;
             DeleteProductButton.Click += this.ClearFields;
-            addProductQuantityButton.Click += this.RefreshGridView;
-            addProductQuantityButton.Click += this.ClearFields;
         }
 
         private void ProductManagement_FormClosing(object sender, FormClosingEventArgs e)
@@ -44,8 +41,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             loadProductListGridView.DataSource = productService.GetProductList();
             CategoryService categoryService = new CategoryService();
             productCategoryComboBox.DataSource = categoryService.GetCategoryNameList();
-            productService = new ProductService();                                                                         //
-            loadInsufficientQuantityProductsListGridView.DataSource = productService.GetProductsForQuantity(min);          //
+            productService = new ProductService();                                                                       
         }
         void RefreshGridView(object sender, EventArgs e)
         {
@@ -53,13 +49,12 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             loadProductListGridView.DataSource = productService.GetProductList();
             CategoryService categoryService = new CategoryService();
             productCategoryComboBox.DataSource = categoryService.GetCategoryNameList();
-            productService = new ProductService();                                                                         //
-            loadInsufficientQuantityProductsListGridView.DataSource = productService.GetProductsForQuantity(min);          //
+            productService = new ProductService();                                                                        
         }
 
         void ClearFields(object sender, EventArgs e)
         {
-            productNameTextBox.Text= productPriceTextBox.Text = productQuantityTextBox.Text = productCategoryComboBox.Text = searchProductNameTextBox.Text=addQuantityProductNameTextBox.Text=addProductQuantityTextBox.Text = searchByQuantityNumberTextBox.Text = string.Empty;
+            productNameTextBox.Text= productPriceTextBox.Text = productQuantityTextBox.Text = productCategoryComboBox.Text = searchProductNameTextBox.Text = string.Empty;
         }
 
         private void addProductButton_Click(object sender, EventArgs e)
@@ -85,7 +80,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
         private void loadProductListGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             id=pid = (int)loadProductListGridView.Rows[e.RowIndex].Cells[0].Value;
-            productNameTextBox.Text = addQuantityProductNameTextBox.Text = loadProductListGridView.Rows[e.RowIndex].Cells[1].Value.ToString();
+            productNameTextBox.Text = loadProductListGridView.Rows[e.RowIndex].Cells[1].Value.ToString();
             productPriceTextBox.Text= loadProductListGridView.Rows[e.RowIndex].Cells[2].Value.ToString();
             productQuantityTextBox.Text = loadProductListGridView.Rows[e.RowIndex].Cells[3].Value.ToString();
             value = (int)loadProductListGridView.Rows[e.RowIndex].Cells[3].Value;
@@ -129,45 +124,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             loadProductListGridView.DataSource = productService.GetProductListForSearch(searchProductNameTextBox.Text);
         }
 
-        private void searchByQuantityNumberTextBox_TextChanged(object sender, EventArgs e)
-        {
-            if (!String.IsNullOrEmpty(searchByQuantityNumberTextBox.Text))
-            {
-                ProductService productService = new ProductService();
-                loadInsufficientQuantityProductsListGridView.DataSource = productService.GetProductsForQuantity(Convert.ToInt32(searchByQuantityNumberTextBox.Text));
-            }
-            else
-            {
-
-                ProductService productService = new ProductService();
-                loadInsufficientQuantityProductsListGridView.DataSource = productService.GetProductsForQuantity(min);
-
-            }
-        }
-
-        private void loadInsufficientQuantityProductsListGridView_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            pid = (int)loadInsufficientQuantityProductsListGridView.Rows[e.RowIndex].Cells[0].Value;
-            addQuantityProductNameTextBox.Text = loadInsufficientQuantityProductsListGridView.Rows[e.RowIndex].Cells[1].Value.ToString();
-            value = (int)loadInsufficientQuantityProductsListGridView.Rows[e.RowIndex].Cells[3].Value;
-        }
-
-        private void addProductQuantityButton_Click(object sender, EventArgs e)
-        {
-            int updatedQuantity = Convert.ToInt32(addProductQuantityTextBox.Text) + value;
-
-            ProductService productService = new ProductService();
-            int result = productService.UpdateQuantity(updatedQuantity,pid);
-            if (result > 0)
-            {
-                MessageBox.Show("Product Quantity added successfully");
-            }
-            else
-            {
-                MessageBox.Show("Error in adding product quentity");
-            }
-        }
-
         private void backToHomeBuktton1_Click(object sender, EventArgs e)
         {
             UserService userService = new UserService();
@@ -184,6 +140,5 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
                 this.Hide();
             }
         }
-
     }
 }
