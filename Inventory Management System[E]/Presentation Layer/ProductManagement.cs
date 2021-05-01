@@ -18,6 +18,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
         string username;
         int cid;
         int value = 0;
+
         public ProductManagement(string username)
         {
             this.username = username;
