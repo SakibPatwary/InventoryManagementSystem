@@ -121,6 +121,7 @@
             // 
             // nameTextBox
             // 
+            this.nameTextBox.BackColor = System.Drawing.Color.Silver;
             this.nameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameTextBox.Location = new System.Drawing.Point(171, 35);
             this.nameTextBox.Name = "nameTextBox";
@@ -129,6 +130,7 @@
             // 
             // useNameTextBox
             // 
+            this.useNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.useNameTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.useNameTextBox.Location = new System.Drawing.Point(171, 82);
             this.useNameTextBox.Name = "useNameTextBox";
@@ -137,6 +139,7 @@
             // 
             // passwordTextBox
             // 
+            this.passwordTextBox.BackColor = System.Drawing.Color.Silver;
             this.passwordTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordTextBox.Location = new System.Drawing.Point(171, 128);
             this.passwordTextBox.Name = "passwordTextBox";
@@ -146,6 +149,7 @@
             // 
             // emailTextBox
             // 
+            this.emailTextBox.BackColor = System.Drawing.Color.Silver;
             this.emailTextBox.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailTextBox.Location = new System.Drawing.Point(171, 176);
             this.emailTextBox.Name = "emailTextBox";
@@ -162,6 +166,7 @@
             // 
             // genderComboBox
             // 
+            this.genderComboBox.BackColor = System.Drawing.Color.Silver;
             this.genderComboBox.FormattingEnabled = true;
             this.genderComboBox.Items.AddRange(new object[] {
             "Male",
