@@ -18,7 +18,6 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
         int productId=0;
         double unitPrice=0;
         int availableQuantity=0;
-        //int removableQuantity = 0;
         int orderedQuantity = 0;
         string username;
         public OrderManagement(string username)

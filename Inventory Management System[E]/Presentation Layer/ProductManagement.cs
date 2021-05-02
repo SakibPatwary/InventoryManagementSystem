@@ -66,24 +66,17 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             }
             else
             {
-                if (Convert.ToInt32(productQuantityTextBox.Text) < 0)
+                ProductService productService = new ProductService();
+                int result = productService.AddNewProduct(productNameTextBox.Text, productPriceTextBox.Text, productQuantityTextBox.Text, productCategoryComboBox.Text);
+                if (result > 0)
                 {
-                    MessageBox.Show("Quantity can not be negative value or 0");
-
+                    MessageBox.Show("Product added successfully");
                 }
                 else
                 {
-                    ProductService productService = new ProductService();
-                    int result = productService.AddNewProduct(productNameTextBox.Text, productPriceTextBox.Text, productQuantityTextBox.Text, productCategoryComboBox.Text);
-                    if (result > 0)
-                    {
-                        MessageBox.Show("Product added successfully");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Error in adding product");
-                    }
+                    MessageBox.Show("Error in adding product");
                 }
+
             }
         }
         private void loadProductListGridView_CellClick(object sender, DataGridViewCellEventArgs e)
