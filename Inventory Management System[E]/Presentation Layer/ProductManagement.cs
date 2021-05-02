@@ -66,15 +66,23 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
             }
             else
             {
-                ProductService productService = new ProductService();
-                int result = productService.AddNewProduct(productNameTextBox.Text, productPriceTextBox.Text, productQuantityTextBox.Text, productCategoryComboBox.Text);
-                if (result > 0)
+                if (Convert.ToInt32(productQuantityTextBox.Text) < 0)
                 {
-                    MessageBox.Show("Product added successfully");
+                    MessageBox.Show("Quantity can not be negative value or 0");
+
                 }
                 else
                 {
-                    MessageBox.Show("Error in adding product");
+                    ProductService productService = new ProductService();
+                    int result = productService.AddNewProduct(productNameTextBox.Text, productPriceTextBox.Text, productQuantityTextBox.Text, productCategoryComboBox.Text);
+                    if (result > 0)
+                    {
+                        MessageBox.Show("Product added successfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error in adding product");
+                    }
                 }
             }
         }

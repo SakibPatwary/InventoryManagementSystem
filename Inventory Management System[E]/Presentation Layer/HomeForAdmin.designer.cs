@@ -232,7 +232,7 @@
             // 
             this.AdminNamelinkLabel.AutoSize = true;
             this.AdminNamelinkLabel.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdminNamelinkLabel.LinkColor = System.Drawing.Color.White;
+            this.AdminNamelinkLabel.LinkColor = System.Drawing.Color.DarkBlue;
             this.AdminNamelinkLabel.Location = new System.Drawing.Point(1001, 38);
             this.AdminNamelinkLabel.Name = "AdminNamelinkLabel";
             this.AdminNamelinkLabel.Size = new System.Drawing.Size(51, 19);

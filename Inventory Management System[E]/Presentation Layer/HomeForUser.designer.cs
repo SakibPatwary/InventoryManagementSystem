@@ -133,7 +133,7 @@
             // 
             this.EmployeeNameLinkLabel.AutoSize = true;
             this.EmployeeNameLinkLabel.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmployeeNameLinkLabel.LinkColor = System.Drawing.Color.Cornsilk;
+            this.EmployeeNameLinkLabel.LinkColor = System.Drawing.Color.Indigo;
             this.EmployeeNameLinkLabel.Location = new System.Drawing.Point(911, 37);
             this.EmployeeNameLinkLabel.Name = "EmployeeNameLinkLabel";
             this.EmployeeNameLinkLabel.Size = new System.Drawing.Size(51, 19);
