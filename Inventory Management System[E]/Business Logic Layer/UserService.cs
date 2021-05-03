@@ -30,26 +30,6 @@ namespace Sales_and_Inventory_Management_System.Business_Logic_Layer
             return this.userDataAccess.GetAllUsers();
         }
 
-        public User GetUser(int id)
-        {
-            return this.userDataAccess.GetUser(id);
-        }
-
-
-        public int AddNewUser(string name, string userName, string password, string email, string dateOfBirth, string gender, string type)
-        {
-            User user = new User()
-            {
-                Name = name,
-                Username = userName,
-                Password = password,
-                Email = email,
-                DateOfBirth = dateOfBirth,
-                Gender = gender,
-                Type = type
-            };
-            return this.userDataAccess.InsertUser(user);
-        }
         public int AddNewUserForReg(string name, string userName, string password, string email, string dateOfBirth, string gender, string bloodGroup)
         {
             User user = new User()
@@ -60,7 +40,7 @@ namespace Sales_and_Inventory_Management_System.Business_Logic_Layer
                 Email = email,
                 DateOfBirth = dateOfBirth,
                 Gender = gender,
-                BloodGroup = bloodGroup
+                BloodGroup = bloodGroup,
             };
             return this.userDataAccess.InsertUserForReg(user);
         }

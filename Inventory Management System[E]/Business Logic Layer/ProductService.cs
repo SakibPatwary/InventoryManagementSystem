@@ -61,10 +61,7 @@ namespace Sales_and_Inventory_Management_System.Business_Logic_Layer
         {
             return productDataAcess.GetProductsForSearch(productName);
         }
-        public List<Product> GetProductsForQuantity(int quantity)
-        {
-            return productDataAcess.GetProductsForQuantity(quantity);
-        }
+
         public int GetProductQuantity(int productId)
         {
             return productDataAcess.GetProductQuantity(productId);

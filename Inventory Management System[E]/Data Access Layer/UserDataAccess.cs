@@ -54,7 +54,6 @@ namespace Sales_and_Inventory_Management_System.Data_Access_Layer
                 user.Id = (int)reader["Id"];
                 user.Name = reader["Name"].ToString();
                 user.Username = reader["UserName"].ToString();
-                //user.Password = reader["Password"].ToString();
                 user.Email = reader["Email"].ToString();
                 user.DateOfBirth = reader["DateOfBirth"].ToString();
                 user.Gender = reader["Gender"].ToString();
